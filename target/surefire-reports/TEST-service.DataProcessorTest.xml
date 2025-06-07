@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="service.DataProcessorTest" time="0.085" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="service.DataProcessorTest" time="0.059" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.15.6-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\ambal\AppData\Local\Temp\surefire5262392089055340213\surefirebooter-20250528172844533_3.jar C:\Users\ambal\AppData\Local\Temp\surefire5262392089055340213 2025-05-28T17-28-44_251-jvmRun1 surefire-20250528172844533_1tmp surefire_0-20250528172844533_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\ambal\AppData\Local\Temp\surefire289487664525473848\surefirebooter-20250607161705962_3.jar C:\Users\ambal\AppData\Local\Temp\surefire289487664525473848 2025-06-07T16-17-05_609-jvmRun1 surefire-20250607161705962_1tmp surefire_0-20250607161705962_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\ambal\data-meter\target\test-classes;C:\Users\ambal\data-meter\target\classes;C:\Users\ambal\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.2\junit-jupiter-5.8.2.jar;C:\Users\ambal\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\ambal\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ambal\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\ambal\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ambal\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\ambal\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\ambal\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ambal\AppData\Local\Temp\surefire5262392089055340213\surefirebooter-20250528172844533_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ambal\AppData\Local\Temp\surefire289487664525473848\surefirebooter-20250607161705962_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.15+6"/>
@@ -50,7 +50,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.15.6-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-17.0.15.6-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\ambal\bin;C:\Users\ambal\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Python313;C:\Users\ambal\Downloads\sqlite3;C:\Users\ambal\Downloads\chromedriver-win64\chromedriver-win64;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.43.34808\bin\Hostx64\x64;C:\Users\ambal\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Users\ambal\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\ambal\AppData\Local\Programs\Python\Python313\;C:\Users\ambal\AppData\Local\Programs\Python\Launcher\;C:\Users\ambal\AppData\Local\Microsoft\WindowsApps;C:\Users\ambal\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ambal\bin;C:\Users\ambal\AppData\Roaming\npm;;."/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.15.6-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-17.0.15.6-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\ambal\bin;C:\Users\ambal\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Python313;C:\Users\ambal\Downloads\sqlite3;C:\Users\ambal\Downloads\chromedriver-win64\chromedriver-win64;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.43.34808\bin\Hostx64\x64;C:\Users\ambal\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Java\jdk-21\bin;C:\Users\ambal\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\ambal\AppData\Local\Programs\Python\Python313\;C:\Users\ambal\AppData\Local\Programs\Python\Launcher\;C:\Users\ambal\AppData\Local\Microsoft\WindowsApps;C:\Users\ambal\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ambal\bin;C:\Users\ambal\AppData\Roaming\npm;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Eclipse Adoptium"/>
     <property name="java.vm.version" value="17.0.15+6"/>
@@ -58,5 +58,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testProcessRecord" classname="service.DataProcessorTest" time="0.05"/>
+  <testcase name="testProcessRecord" classname="service.DataProcessorTest" time="0.039"/>
 </testsuite>

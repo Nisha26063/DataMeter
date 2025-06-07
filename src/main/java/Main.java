@@ -3,6 +3,8 @@ import service.BillingService;
 import service.DataProcessor;
 import util.UsageDataReader;
 import util.ReportGenerator;
+
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
@@ -15,7 +17,7 @@ public class Main {
         try {
             // Load configuration
             Properties config = new Properties();
-            try (InputStream input = Main.class.getClassLoader().getResourceAsStream("config.properties")) {
+            try (FileInputStream input = new FileInputStream("src\\main\\resources\\config.properties")) {
                 config.load(input);
             }
 
@@ -36,6 +38,7 @@ public class Main {
                     e.printStackTrace();
                 }
             }
+
 
 
             // Generate report
