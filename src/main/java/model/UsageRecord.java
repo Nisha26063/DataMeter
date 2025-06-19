@@ -7,11 +7,16 @@ public class UsageRecord {
     private boolean isRoaming;
 
     public UsageRecord(String mobileNumber, int g4Usage, int g5Usage, boolean isRoaming) {
-        //Exception handling for checking the validity of mobile number
-        if (mobileNumber == null || mobileNumber.length() != 10) {
+       if (mobileNumber == null || mobileNumber.trim().isEmpty()) {
+        throw new IllegalArgumentException("Mobile number cannot be null or empty");
+        }
+        
+        String cleanedNumber = mobileNumber.trim().replaceAll("[^0-9]", "");
+        if (cleanedNumber.length() != 10) {
             throw new IllegalArgumentException("Mobile number must be 10 digits");
         }
-        //Exception handling for negative values
+        
+        // Validate usage values
         if (g4Usage < 0 || g5Usage < 0) {
             throw new IllegalArgumentException("Usage values cannot be negative");
         }
