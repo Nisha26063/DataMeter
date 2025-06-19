@@ -37,6 +37,10 @@ DataProcessingException.java: Handles Data processing exceptions<br>
                    java -cp target/classes Main<br>
 5. Check report in /output/report.txt<br>
 
+### Developed with: Java 11
+### Compatible with: Java 11+
+### Tested on: JDK 21 
+
 ### For Configuration:<br>
 edit /src/main/resources/config.properties<br>
 Rates per KB  <br>
