@@ -30,16 +30,16 @@ DataProcessingException.java: Handles Data processing exceptions<br>
 ### Maven : used here for Dependency Management ,Built and Compile automation and unit Testing.<br>
 
 ### TO RUN THE CODE:<br>
-1. Install maven and Java 21<br>
+1. Install maven and Java 11<br>
 2. Clone the repo<br>
 3. Insert /input/data.txt<br>
 4. built and run : mvn clean install<br>
                    java -cp target/classes Main<br>
 5. Check report in /output/report.txt<br>
 
-### Developed with: Java 11
-### Compatible with: Java 11+
-### Tested on: JDK 21 
+**Developed with: Java 11**
+**Compatible with: Java 11+**
+**Tested on: JDK 21**
 
 ### For Configuration:<br>
 edit /src/main/resources/config.properties<br>
